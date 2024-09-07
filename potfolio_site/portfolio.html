@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta name="author" content="Amuliya Kandathil">
+    <meta name="description" content="Portfolio page of Amuliya Kandathil">
+    <title>About Amuliya Kandathil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<script>
+    
+    function showAlert() {
+        alert("Hello, welcome to my page!");
+    }
+
+   
+    function changeBackgroundColor() {
+        document.body.style.backgroundColor = "#d0f0c0"; 
+    }
+
+    
+    function resetBackgroundColor() {
+        document.body.style.backgroundColor = "#f5f5dc"; }
+</script>
+<body>
+    <h1>Amuliya Kandathil</h1>
+
+    <section class="intro">
+        <div class="intro-text">
+            <h2>Hi, I’m Amuliya, a final-year B.Tech student, and welcome to my page! </h2>
+            <p>Here, you’ll learn more about me—my likes, dislikes, and passions. I consider myself a very curious  person who loves to engage in conversations. I’m quite hyperactive, but always in a positive way. When it comes to weaknesses, well, I wouldn’t say I have many. However, I do tend to be a bit of a perfectionist.</p>
+
+            <br>
+            <p3>But if you want me to list it out....</p3>
+            <h3>Strength......</h3>
+            <ul>
+                <li>Curious</li>
+                <li>Active</li>
+                <li>Talkative</li>
+            </ul>
+            <h4>Weakness....</h4>
+            <ul>
+                <li>Perfectionist</li>
+                <li>Lazy...sometimes..</li>
+            </ul>
+        </div>
+    
+        <div class="intro-image">
+            <a href="https://www.linkedin.com/in/amuliya-kandathil-99537b247/" target="_blank">
+                <img src="resoursces/profile_image.jpeg" alt="Amuliya Kandathil" class="profile-pic" 
+                onmouseover="changeBackgroundColor()" onmouseout="resetBackgroundColor()">
+            </a>
+        </div>
+    </section>
+    
+   
+    <section>
+        <h2>Want to see my bucket list???</h2>
+        <table class="bucket-list">
+            <thead>
+                <tr>
+                    <th>Serial No</th>
+                    <th>Task</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Skydiving</td>
+                    <td>Not Started</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Travel World</td>
+                    <td>Not Started</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Learn French</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Climb Mount Everest</td>
+                    <td>Not Started</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Be a Tennis Player</td>
+                    <td>In Progress</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>My Favorite Movie and Song</h2>
+        
+        
+        <div>
+            <h3>Favorite Movie</h3>
+            <video width="600" controls>
+                <source src="resoursces\Pirates of the Caribbean - At World's End - Up Is Down Scene.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        
+        <div>
+            <h3>Favorite Song</h3>
+            <video width="600" controls>
+                <source src="resoursces\Taylor Swift - You Belong With Me.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <button onclick="showAlert()">Click Me!</button>
+        </div>
+    
+        
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>You can reach me at <a href="amuliyakandathil@gmailcom">amuliyakandathil.email@gmail.com</a></p>
+    </section>
+
+</body>
+</html>
